@@ -21,4 +21,4 @@ jobs:
 
     - name: Pull latest code on server
       run: |
-        ssh -o StrictHostKeyChecking=no user@your-server-ip 'cd /home/zul/mcserver/plugins/VAMPCORE_PLUGIN && git pull'
+        ssh -o StrictHostKeyChecking=no zul@202.10.40.181 'cd /home/zul/mcserver/plugins/VAMPCORE_PLUGIN && git pull'
